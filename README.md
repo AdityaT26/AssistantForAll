@@ -1,3 +1,6 @@
+# Assistant for All
+
+This project uses the Google Assitant API and integrates it with a GUI, thus making the Google Assistant accessible on desktop.
 
 ## Run Locally
 
