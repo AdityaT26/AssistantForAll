@@ -1,0 +1,169 @@
+<DOCTYPE !html>
+    <head>
+      <style>
+      @charset "ISO-8859-1";
+      body{
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        /*background: #34495e;*/
+        background-color:#052b44;
+        transition : 0.25s;
+      }
+  
+      @keyframes logo{
+        0% {color : #ffbf00; padding : 54px 20px;}
+        5% {color : #474ba8; padding : 54px 30px;}
+        10% {color : #ff9100; padding : 54px 20px;}
+        20% {color : #00ff2f; padding : 54px 30px;}
+        30% {color : #00ffd5; padding : 54px 20px;}
+        40% {color : #00b3ff; padding : 54px 30px;}
+        50% {color : #002aff; padding : 54px 20px;}
+        60% {color : #8000ff; padding : 54px 30px;}
+        70% {color : #ff00fb; padding : 54px 20px;}
+        80% {color : #ff004c; padding : 54px 30px;}
+        90% {color : #ff5100; padding : 54px 20px;}
+        95% {color : white; padding : 54px 30px;}
+        95% {color : #ffbf00; padding : 54px 20px;}
+      }
+  
+      @keyframes border{
+        0%{border : 5px solid #4285F4; box-shadow: 0 0 10px #4285F4;}
+        25%{border : 5px solid #1de452; box-shadow: 0 0 20px #1de452;}
+        50%{border : 5px solid #FBBC05; box-shadow: 0 0 10px #FBBC05;}
+        75%{border : 5px solid #fa1c08; box-shadow: 0 0 20px #fa1c08;}
+        100%{border : 5px solid #4285F4; box-shadow: 0 0 10px #4285F4;}
+      }
+  
+      .banner{
+        /*background-color : #030536;*/
+        width : 300px;
+        padding : 40px;
+        color : #ffbf00;
+        display : block;
+        margin : 20px auto;
+        text-align : center;
+        padding : 54px 20px;
+        font-weight : 400;
+        font-size : 50;
+      }
+  
+      .banner:hover{
+        /*border : 2px solid #ffbf00;
+        border-radius : 24px;*/
+        animation: logo 10s infinite;
+      }
+  
+      .oauth{
+  
+        width : 300px;
+        height : 300px;
+        padding : 20px;
+        position : absolute;
+  
+        top : 50%;
+        left : 50%;
+  
+        transform: translate(-50%, -50%);
+        text-align: center;
+        background: #191919;
+  
+        border : 2px solid #3498db;
+        box-shadow: 0 0 10px #4285F4;
+        border-radius : 24px;
+      }
+  
+      @keyframes fadeout{
+        0% {
+          background-size: 100%;
+        }
+        80% {
+            background-size: 650%;
+        }
+        100% {
+            background-size: 650%;
+        }
+      }
+  
+      @keyframes fadein{
+        0% {
+          background-size: 650%;
+        }
+        40% {
+            background-size: 650%;
+        }
+        100% {
+            background-size: 100%;
+        }
+      }
+  
+      .oauth a{
+  
+        text-align: center;
+        display : block;
+        padding: 20px;
+        border-radius : 24px;
+  
+        font-weight: bold;
+  
+        position : absolute;
+        transform: translate(18%, 10%);
+        color: white;
+  
+        text-decoration: none;
+  
+        font-size: 25px;
+  
+        background-image: linear-gradient(
+          45deg,
+        #4285F4 33%, 
+        #1de452 33%, 
+        #1de452 53%, 
+        #FBBC05 53%,
+        #FBBC05 75%, 
+        #EA4335 75%, 
+        #EA4335 90%,
+        #fa1c08 90%
+        );
+  
+        animation: fadein 0.75s ease forwards;
+  
+      }
+  
+      .oauth:hover{
+        animation: border 5s infinite;
+      }
+  
+      .oauth a:hover{
+        animation: fadeout 0.5s ease-in forwards;
+      }
+  
+      .oauth p{
+  
+        color: white;
+        font-size: 30px;
+      }
+  
+      </style>
+      <meta charset="utf-8">
+      <title>Login Successful</title>
+    
+  
+      <h1 class="banner">
+        <u>AonW</u>
+      </h1>
+  
+      <!--<form class="_ex1" action="../home/" method="get">--->
+  
+      <div class='oauth'>
+  
+        <p>Your assistant is a</p>
+        <p>click away</p>
+  
+        <a href="done">Go back to app</a><br>
+  
+      </div>
+  </head>
+  
+  </html>
+  
