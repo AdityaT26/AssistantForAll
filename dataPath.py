@@ -3,7 +3,7 @@ import dropbox
 from threading import Thread
 import DEBUG as dbg
 
-TOKEN="-XQIBbW2PR8AAAAAAAAAASqPiQbZb9cYyp2Klbzi8439QFhgEMfToAVU0SzFI60R"
+TOKEN="<Enter your dropbox token>" #Not Needed
 
 DBX = dropbox.Dropbox(TOKEN)
 
