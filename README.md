@@ -2,6 +2,8 @@
 
 This project uses the Google Assitant API and integrates it with a GUI, thus making the Google Assistant accessible on desktop.
 
+* This project has been published on the Microsoft Store with the alias "AonW".
+
 ## Run Locally
 
 Clone the project
